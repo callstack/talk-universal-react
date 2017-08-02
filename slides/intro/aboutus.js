@@ -2,12 +2,12 @@ import React from 'react';
 import { Slide, Appear, Heading, Image, Text, Layout, Fill } from 'spectacle';
 
 import images from 'images';
-import { backgroundWithImage } from 'styles';
+import { backgroundWithImage, theme } from 'styles';
 
 const styles = {
   roundWithBorder: {
     borderRadius: '50%',
-    border: 'solid 3px white',
+    border: `solid 3px ${theme.screen.colors.tertiary}`,
   },
 };
 
