@@ -3,9 +3,9 @@ import createTheme from 'spectacle/lib/themes/default';
 import images from 'images';
 
 const colors = {
-  primary: '#3F65A3',
+  primary: '#EA4E51',
   secondary: '#FFFFFF',
-  tertiary: '#4AE0E2',
+  tertiary: '#CDFFFF',
   quartenary: '#CECECE',
 };
 
@@ -20,8 +20,8 @@ export const backgroundWithImage = {
   backgroundPosition: 'center',
 };
 
-export const boldedTertiary = {
-  color: colors.tertiary,
+export const boldedPrimary = {
+  color: colors.primary,
   fontWeight: 'bold',
 };
 

@@ -39,14 +39,14 @@ export default (
       <div>
         <Layout>
           <PersonTile
-            image={images.mike}
+            image={images.chudziak}
             name="Michał Chudziak"
             github="mike866"
           />
           <PersonTile
-            image={images.mike}
-            name="Michał Chudziak"
-            github="mike866"
+            image={images.dratwa}
+            name="Piotr Drapich"
+            github="dratwas"
           />
         </Layout>
       </div>

@@ -1,9 +1,10 @@
 import preloader from 'spectacle/lib/utils/preloader';
 
 const images = {
-  logo: require('assets/img/logo-blue.svg'),
+  logo: require('assets/img/logo.svg'),
   background: require('assets/img/bg.jpg'),
-  mike: require('assets/img/mike.jpg'),
+  chudziak: require('assets/img/chudziak.jpg'),
+  dratwa: require('assets/img/dratwa.jpg'),
 };
 
 preloader(images);

@@ -1,4 +1,4 @@
-import first from './1st';
-import second from './2nd';
+import title from './title';
+import aboutus from './aboutus';
 
-export default [first, second];
+export default [title, aboutus];
