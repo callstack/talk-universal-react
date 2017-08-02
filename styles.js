@@ -25,4 +25,9 @@ export const boldedPrimary = {
   fontWeight: 'bold',
 };
 
+export const boldedTertiary = {
+  color: colors.tertiary,
+  fontWeight: 'bold',
+};
+
 export const theme = createTheme(colors, fonts);

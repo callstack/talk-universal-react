@@ -1,3 +1,4 @@
 import intro from './intro';
+import stack from './stack';
 
-export default [...intro];
+export default [...intro, ...stack];
