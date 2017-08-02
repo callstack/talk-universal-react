@@ -20,7 +20,7 @@ const PersonTile = ({ name, image, github }) =>
       height="250px"
     />
     <Text textSize={30} textColor="secondary">{name}</Text>
-    <Text textSize={24} textFont="secondary" textColor="tertiary">
+    <Text textSize={24} textColor="tertiary">
       @{github}
     </Text>
   </Fill>;
