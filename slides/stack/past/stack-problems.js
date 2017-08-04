@@ -5,12 +5,7 @@ import { backgroundWithImage, boldedTertiary } from 'styles';
 
 export default (
   <Slide key="stackpast3" transition={['fade']} style={backgroundWithImage}>
-    <Heading
-      size={4}
-      style={{ marginBottom: '40px' }}
-      caps
-      textColor="secondary"
-    >
+    <Heading size={2} caps textColor="secondary">
       Potential problems
     </Heading>
     <List>
