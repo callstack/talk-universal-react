@@ -10,7 +10,7 @@ export default (
     </Heading>
     <Appear fid="1">
       <Text textColor="secondary">
-        Babel - transpile code for{' '}
+        Babel - transpile code for&nbsp;
         <span style={boldedTertiary}>any platform</span> that we target
       </Text>
     </Appear>
