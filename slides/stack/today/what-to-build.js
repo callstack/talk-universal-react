@@ -4,7 +4,7 @@ import { Appear, List, ListItem, Heading, Slide } from 'spectacle';
 import { backgroundWithImage, boldedTertiary } from 'styles';
 
 export default (
-  <Slide key="stackpast3" transition={['fade']} style={backgroundWithImage}>
+  <Slide key="stacktoday5" transition={['fade']} style={backgroundWithImage}>
     <Heading size={2} caps textColor="secondary">
       What to build
     </Heading>

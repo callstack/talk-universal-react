@@ -6,7 +6,7 @@ const colors = {
   primary: '#EA4E51',
   secondary: '#FFFFFF',
   tertiary: '#CDFFFF',
-  quartenary: '#CECECE',
+  quartenary: '#2B7CEA',
 };
 
 const fonts = {

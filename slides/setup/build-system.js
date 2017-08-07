@@ -4,14 +4,13 @@ import { Slide, Heading, Text, Appear } from 'spectacle';
 import { backgroundWithImage, boldedTertiary } from 'styles';
 
 export default (
-  <Slide key="stacktoday4" transition={['fade']} style={backgroundWithImage}>
+  <Slide key="setup3" transition={['fade']} style={backgroundWithImage}>
     <Heading size={2} caps lineHeight={1} textColor="secondary">
-      Keep in mind...
+      Build system
     </Heading>
     <Appear fid="1">
       <Text textColor="secondary">
-        <span style={boldedTertiary}>Don&apos;t</span> build
-        universal applications
+        Webpack (+ <span style={boldedTertiary}>Haul</span>)
       </Text>
     </Appear>
   </Slide>
