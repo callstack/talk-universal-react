@@ -20,7 +20,7 @@ export default (
           react-native-web
         </ListItem>
         <ListItem>
-          <span style={boldedTertiary}>react-primitives</span>
+          react-primitives
         </ListItem>
         <ListItem>
           ReactXP

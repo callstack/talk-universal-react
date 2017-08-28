@@ -11,7 +11,7 @@ export default (
     <List>
       <Appear fid="1">
         <ListItem>
-          react-community/<span style={boldedTertiary}>react-primitives</span>
+          react-community/<span style={boldedTertiary}>react-navigation</span>
         </ListItem>
       </Appear>
       <Appear fid="2">

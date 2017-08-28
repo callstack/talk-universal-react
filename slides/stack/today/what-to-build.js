@@ -19,6 +19,11 @@ export default (
           Universal <span style={boldedTertiary}>UI components</span>
         </ListItem>
       </Appear>
+      <Appear fid="3">
+        <ListItem>
+          Universal <span style={boldedTertiary}>actions and reducers</span>
+        </ListItem>
+      </Appear>
     </List>
   </Slide>
 );

@@ -32,15 +32,12 @@ export default (
         <StructureArea>
           <div>
             <span>package.json</span><br />
-            <strong>platforms</strong><br />
+            <strong>src</strong><br />
             <strong style={getIndent()}>mobile</strong><br />
-            <span style={getIndent(2)}>package.json</span><br />
+            <span style={getIndent(2)}>index.js</span><br />
             <strong style={getIndent()}>web</strong><br />
-            <span style={getIndent(2)}>package.json</span><br />
-            <strong>core</strong><br />
-            <span style={getIndent()}>package.json</span><br />
-            <strong>libs</strong><br />
-            <strong style={getIndent()}>yourLib</strong><br />
+            <span style={getIndent(2)}>index.js</span><br />
+            <strong style={getIndent()}>shared</strong><br />
             <span style={getIndent(2)}>package.json</span><br />
           </div>
         </StructureArea>
