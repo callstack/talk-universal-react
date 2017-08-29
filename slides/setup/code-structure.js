@@ -38,7 +38,6 @@ export default (
             <strong style={getIndent()}>web</strong><br />
             <span style={getIndent(2)}>index.js</span><br />
             <strong style={getIndent()}>shared</strong><br />
-            <span style={getIndent(2)}>package.json</span><br />
           </div>
         </StructureArea>
       </div>
