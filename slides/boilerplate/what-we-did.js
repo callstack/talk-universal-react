@@ -27,7 +27,7 @@ export default (
       </Appear>
       <Appear fid="4">
         <ListItem>
-          Moved src files to <span style={boldedTertiary}>web/src</span>{' '}
+          Moved src files to <span style={boldedTertiary}>web/src</span>&nbsp;
           directory
         </ListItem>
       </Appear>

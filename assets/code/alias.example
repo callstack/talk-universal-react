@@ -1,0 +1,5 @@
+shared: path.join(__dirname, '../../src/shared'),
+containers: path.join(__dirname, '../../src/web/containers'),
+
+shared: path.join(root, 'src/shared'),
+containers: path.join(root, 'src/mobile/containers'),
