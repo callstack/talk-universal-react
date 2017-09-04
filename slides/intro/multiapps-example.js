@@ -18,8 +18,18 @@ const styles = {
   },
 };
 
+const notes = `
+  Apps which are running not only onthe mobile phones, but also on the web.
+  Just like facebook does.
+`;
+
 export default (
-  <Slide key="intro4" transition={['fade']} style={backgroundWithImage}>
+  <Slide
+    notes={notes}
+    key="intro4"
+    transition={['fade']}
+    style={backgroundWithImage}
+  >
     <Heading size={2} caps textColor="secondary">
       Target whole market
     </Heading>

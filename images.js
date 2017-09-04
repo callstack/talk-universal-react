@@ -8,6 +8,7 @@ const images = {
   facebookWeb: require('assets/img/facebookWeb.png'),
   facebookAndroid: require('assets/img/facebookAndroid.png'),
   facebookIos: require('assets/img/facebookIos.png'),
+  flux: require('assets/img/flux.png'),
 };
 
 preloader(images);
