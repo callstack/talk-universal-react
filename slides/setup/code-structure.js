@@ -22,8 +22,19 @@ const StructureArea = ({ children }) =>
     <code style={{ textAlign: 'left' }}>{children}</code>
   </div>;
 
+const notes = `
+  There is a structure of the code we are going to implement today.
+  As you can see we have package.json holding all dependencies at the top level,
+  and within the src directory where are mobile, web and shared folders.
+`;
+
 export default (
-  <Slide key="setup2" transition={['fade']} style={backgroundWithImage}>
+  <Slide
+    notes={notes}
+    key="setup2"
+    transition={['fade']}
+    style={backgroundWithImage}
+  >
     <Heading size={2} caps lineHeight={1} textColor="secondary">
       Code structure
     </Heading>

@@ -3,8 +3,19 @@ import { Appear, List, ListItem, Heading, Slide } from 'spectacle';
 
 import { backgroundWithImage, boldedTertiary } from 'styles';
 
+const notes = `
+  This soultion wasn't the perfect one, preety unachievable for one team or one developer.
+  It was also really expensive to target a new platform, development process was slow,
+  since you had to repeat everything for three times in a different languages.
+`;
+
 export default (
-  <Slide key="stackpast3" transition={['fade']} style={backgroundWithImage}>
+  <Slide
+    notest={notes}
+    key="stackpast3"
+    transition={['fade']}
+    style={backgroundWithImage}
+  >
     <Heading size={2} caps textColor="secondary">
       Potential problems
     </Heading>

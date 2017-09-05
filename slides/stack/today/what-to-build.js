@@ -3,8 +3,19 @@ import { Appear, List, ListItem, Heading, Slide } from 'spectacle';
 
 import { backgroundWithImage, boldedTertiary } from 'styles';
 
+const notes = `
+  What should we build then? Rather than focusing on building universal
+  codebase we should try to build:
+  - libraries, ui components, actions and reducers, etc.
+`;
+
 export default (
-  <Slide key="stacktoday5" transition={['fade']} style={backgroundWithImage}>
+  <Slide
+    notes={notes}
+    key="stacktoday4"
+    transition={['fade']}
+    style={backgroundWithImage}
+  >
     <Heading size={2} caps textColor="secondary">
       What to build
     </Heading>

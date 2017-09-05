@@ -23,8 +23,17 @@ const ApplicationTextBar = ({ text, application = false }) =>
     <strong>{text}</strong>{application && ' application'}
   </div>;
 
+const notes = `
+  So today's stack looks rather like this: we have single application running on web, ios and android
+`;
+
 export default (
-  <Slide key="stacktoday3" transition={['fade']} style={backgroundWithImage}>
+  <Slide
+    notes={notes}
+    key="stacktoday2"
+    transition={['fade']}
+    style={backgroundWithImage}
+  >
     <Heading size={2} caps textColor="secondary">
       Stack of today
     </Heading>
